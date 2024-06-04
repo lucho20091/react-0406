@@ -1,0 +1,61 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+body{
+  font-family: "Inter", sans-serif;
+  color: white;
+  
+}
+nav{
+  margin: 0 auto;
+  max-width: 550px;
+  height: 91px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 0.4em;
+  background: #21222A;
+}
+nav > img {
+  width: 29px;
+  margin-left: 26px;
+}
+nav > h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-right: auto;
+  color:#61DAFB;
+}
+nav > p {
+  margin-right: 27px;
+}
+.content{
+  margin: 0 auto;
+  max-width: 550px;
+  height: 459px;
+  background: #282D35;
+}
+.content > h1 {
+  margin: 0;
+  font-weight: 700;
+  padding: 57px 27px 46px;
+}
+.content > ul {
+  width: 80%;
+  margin-left: 34px;
+  list-style: none;
+  position: relative;
+}
+.content > ul > li {
+  padding: 10px 0;
+}
+.content > ul > li::before{
+  content: "•";
+  display: inline-block;
+  color: #61DAFB;
+  font-size: 2rem;
+  position: absolute;
+  left: 15px;
+  line-height: 20px;
+}
+
