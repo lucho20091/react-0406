@@ -4,7 +4,12 @@
 body{
   font-family: "Inter", sans-serif;
   color: white;
-  
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.container{
+
 }
 nav{
   margin: 0 auto;
